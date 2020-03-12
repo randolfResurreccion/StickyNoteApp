@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Note</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-nav">
+            <div class="row">
+                <ul class="main-nav">
+                    <li>
+                        <h1>Post-its; helping ideas stick!</h1>
+                    </li>
+                    <li class="post-it">Post-it</li>
+                    <!-- <li><button id="post-it">Post it</button></li> -->
+                    <li class="clear-board">Clear Board</li>
+                </ul>
+            </div>
+            <!-- <h1>Post-its; helping ideas stick!!</h1> -->
+        </div>
+        <div id="display-section"></div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- post it modal -->
+    <div class="modal-form">
+        <form action="" id="form">
+            <a href="" class="modal-close"></a>
+            <textarea name="" id="user-input" cols="30" rows="10"></textarea>
+            <button id="submit">Post-it!!</button>
+        </form>
+    </div>
+
+    <div class="warning">
+        <p>cannot submit empty notes</p>
+        <p>press x button to close</p>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
